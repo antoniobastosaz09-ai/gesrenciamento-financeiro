@@ -1,16 +1,9 @@
 {
-  "name": "sistema-financeiro",
+  "name": "gesrenciamento-financeiro",
   "version": "1.0.0",
   "private": true,
-  "description": "Sistema de gerenciamento financeiro com Express, Supabase e React",
   "main": "api/server.js",
-  "scripts": {
-    "start": "node api/server.js",
-    "dev": "node api/server.js"
-  },
-  "engines": {
-    "node": ">=20"
-  },
+  "scripts": {"start": "node api/server.js"},
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
     "cors": "^2.8.5",
